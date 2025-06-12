@@ -1,4 +1,4 @@
-package data.herbivores;
+package model.animal.herbivores;
 
 public class Caterpillar extends Herbivores{
     public Caterpillar() {

@@ -1,4 +1,4 @@
-package data;
+package model.animal;
 
 public abstract class Animal {
     private float weight;

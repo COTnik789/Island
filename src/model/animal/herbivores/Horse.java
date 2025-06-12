@@ -1,4 +1,4 @@
-package data.herbivores;
+package model.animal.herbivores;
 
 public class Horse extends Herbivores{
     public Horse() {

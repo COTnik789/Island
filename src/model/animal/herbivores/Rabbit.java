@@ -1,8 +1,8 @@
-package data.herbivores;
+package model.animal.herbivores;
 
-public class Sheep extends Herbivores{
-    public Sheep() {
-        super(140, 70, 3,15);
+public class Rabbit extends Herbivores{
+    public Rabbit() {
+        super(150, 2, 2,0.45f);
     }
 
     @Override
@@ -22,6 +22,6 @@ public class Sheep extends Herbivores{
 
     @Override
     public String toString() {
-        return "Овца";
+        return "Кролик";
     }
 }

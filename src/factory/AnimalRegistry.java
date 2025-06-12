@@ -1,8 +1,8 @@
 package factory;
 
-import data.Animal;
-import data.predators.*;
-import data.herbivores.*;
+import model.animal.Animal;
+import model.animal.predators.*;
+import model.animal.herbivores.*;
 
 import java.util.List;
 import java.util.function.Supplier;

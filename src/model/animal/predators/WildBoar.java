@@ -1,6 +1,4 @@
-package data.predators;
-
-import data.herbivores.Herbivores;
+package model.animal.predators;
 
 public class WildBoar extends Predator {
     public WildBoar() {

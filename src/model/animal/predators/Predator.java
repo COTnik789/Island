@@ -1,6 +1,6 @@
-package data.predators;
+package model.animal.predators;
 
-import data.Animal;
+import model.animal.Animal;
 
 public abstract class Predator extends Animal {
 

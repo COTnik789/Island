@@ -1,23 +1,22 @@
 package factory;
 
-import model.animal.Animal;
+import model.plant.Plant;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.function.Supplier;
 
-public class AnimalSpawner implements Spawner<Animal> {
+public class PlantSpawner implements Spawner<Plant>{
 
     private final Random random = new Random();
 
-
     @Override
-    public List<Animal> spawn(List<Supplier<Animal>> suppliers){
-        List<Animal> result = new ArrayList<>();
+    public List<Plant> spawn(List<Supplier<Plant>> suppliers) {
+        List<Plant> result = new ArrayList<>();
 
-        for (Supplier<Animal> supplier : suppliers){
-            Animal temp = supplier.get();
+        for (Supplier<Plant> supplier : suppliers) {
+            Plant temp = supplier.get();
             int count = random.nextInt(temp.getMaxCountOnCell() + 1);
             for (int i = 0; i < count; i++) {
                 result.add(supplier.get());

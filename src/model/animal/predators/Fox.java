@@ -1,4 +1,4 @@
-package data.predators;
+package model.animal.predators;
 
 public class Fox extends Predator{
     public Fox(){

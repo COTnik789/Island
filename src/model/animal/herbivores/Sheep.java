@@ -1,9 +1,8 @@
-package data.predators;
+package model.animal.herbivores;
 
-public class Boa extends Predator{
-
-    public Boa() {
-        super(30, 15, 1,3);
+public class Sheep extends Herbivores{
+    public Sheep() {
+        super(140, 70, 3,15);
     }
 
     @Override
@@ -23,6 +22,6 @@ public class Boa extends Predator{
 
     @Override
     public String toString() {
-        return "Удав";
+        return "Овца";
     }
 }

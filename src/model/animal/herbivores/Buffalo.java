@@ -1,4 +1,4 @@
-package data.herbivores;
+package model.animal.herbivores;
 
 public class Buffalo extends Herbivores{
     @Override
